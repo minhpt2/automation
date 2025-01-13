@@ -1,0 +1,30 @@
+export const PAGE_TITLE = 'MyBlg';
+export enum ETheme {
+  light = 'light',
+  dark = 'dark',
+}
+export const StaticVariables = {
+  apiURL: 'https://pns-p.dev.rfp.vmoamerica.com',
+  adminEmail: '',
+  adminPassword: '',
+  emailAdmin: 'admin@example.com',
+  passwordAdmin: 'password',
+  emailContributor: 'contributor@autotestmail.com',
+  passwordContributor: '12345678',
+  emailManager: 'manager@autotestmail.com',
+  passwordManager: '12345678',
+  emailAdmin_1: 'admin@autotestmail.com',
+  passwordAdmin_1: '12345678',
+  updatedProjectName: 'Updated Project name Auto',
+  updatedProjectDesc: 'Updated Project des Auto',
+  updatedTaskTitle: 'Updated Task Title',
+  updatedTaskDesc: 'Updated Task Desc',
+  inprogressStatus: 'IN_PROGRESS',
+  todoStatus: 'TODO',
+  completedStatus: 'COMPLETED',
+  adminRole: 'admin',
+  managerRole: 'manager',
+  contributorRole: 'contributor',
+  projectId: '05124e41-b36f-452c-b630-775332133b1c',
+  userId: '6f15f979-0a25-46c6-ba1c-a1ddf59a3e97',
+};
