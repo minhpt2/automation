@@ -27,6 +27,10 @@ This project contains end-to-end tests using [Playwright](https://playwright.dev
   ```sh
   yarn install
   ```
+4. Install Playwright:
+  ```sh
+  npx playwright install
+  ```
 
 ### Running Tests
 
